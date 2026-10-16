@@ -1,3 +1,8 @@
+## Live Demo
+
+Try the deployed application here:
+
+[Student Management System — Live Website](https://student-management-system-chiy.onrender.com/)
 # Student Management System
 
 A full-stack web application to manage student records using HTML, CSS, JavaScript, Python, Flask, and SQLite.
