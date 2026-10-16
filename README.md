@@ -1,40 +1,53 @@
-Student Management System
+# Student Management System
 
-A simple Student Management System built using HTML, CSS, JavaScript, Python, Flask, and SQLite.
+A full-stack web application to manage student records using HTML, CSS, JavaScript, Python, Flask, and SQLite.
 
-Features
+## Features
 
-- Add student records
-- View student records
+- Add new student records
+- View all student records
 - Search students by name or roll number
 - Delete student records
-- Store student data in an SQLite database
+- Validate student details and marks
+- Store records using an SQLite database
+- Simple and user-friendly interface
 
-Technologies Used
+## Technologies Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - Python
 - Flask
 - SQLite
 
-How to Run Locally
+## Project Structure
+
+| File | Description |
+|------|-------------|
+| index.html | Website structure |
+| style.css | Website styling |
+| script.js | Frontend functionality and API requests |
+| app.py | Flask backend and database operations |
+| requirements.txt | Python dependencies |
+
+## Run Locally
 
 1. Install Python.
-2. Install Flask:
-   "pip install flask"
-3. Run the application:
-   "python app.py"
-4. Open "http://127.0.0.1:5000" in your browser.
+2. Install the required packages: pip install -r requirements.txt
+3. Start the Flask application: python app.py
+4. Open http://127.0.0.1:5000 in your browser.
 
-Project Files
+## What I Learned
 
-- "index.html" — Website structure
-- "style.css" — Styling
-- "script.js" — Frontend functionality
-- "app.py" — Flask backend and database operations
+- Full-stack web development fundamentals
+- Connecting frontend JavaScript with Flask APIs
+- CRUD operations using SQLite
+- Form validation and error handling
+- Deploying a web application
 
-Author
+## Author
 
-Student project for learning full-stack web development.
+**Shivani Pundeer**
+
+BCA / MCA | Aspiring Web Developer
