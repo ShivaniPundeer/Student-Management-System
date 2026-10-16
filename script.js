@@ -79,7 +79,16 @@ form.addEventListener("submit", async event => {
             body: JSON.stringify(student)
         });
 
-        const result = await response.json();
+        const text = await response.text();
+
+let result;
+try {
+    result = JSON.parse(text);
+} catch {
+    throw new Error(
+        "Server ne JSON ki jagah HTML bheja. Flask API route check karo."
+    );
+}
 
         if (!response.ok) throw new Error(result.error);
 
