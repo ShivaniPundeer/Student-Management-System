@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+header {
+    background: #4338ca;
+    color: white;
+    text-align: center;
+    padding: 25px 12px;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+main {
+    width: 94%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    background: #4338ca;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #e0e7ff;
+}
+
+.delete-btn {
+    background: #dc2626;
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 21px;
+    }
+
+    .card {
+        padding: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
